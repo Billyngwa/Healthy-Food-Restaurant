@@ -1,0 +1,518 @@
+@font-face {
+    font-family: railway;
+    src: url(assets/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(assets/fonts/Ubuntu-B.woff);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(assets/fonts/Lato-Regular.woff);
+}
+
+@font-face {
+    font-family: lato_semibold;
+    src: url(assets/fonts/Lato-Semibold.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(assets/fonts/Ubuntu-M.woff);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(assets/fonts/Raleway-Bold.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    color: aliceblue;
+    /*background-color: #dfe9c1;*/
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/*container*/
+.container {
+    /*width: 100%;*/
+   width:1140px;
+   
+}
+/*header*/
+header {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    width: 225px;
+}
+
+header .menu li {
+    padding: 0 20px;
+    font-size: 21px;
+}
+
+/* menu */
+header nav ul {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-family: ubuntu;
+    background-color: #7287ae;
+}
+
+/* Banner */
+.banner {
+    background-color: #7287ae;
+}
+
+.banner .container {
+    position: relative;
+}
+
+.banner .background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.banner_heading {
+    color: whitesmoke;
+    font-family: ubuntu;
+    align-content: center;
+    padding-bottom: 0px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 500px;
+}
+
+/*style for banner description*/
+.banner_description {
+    font-size: 33px;
+    font-weight: lighter;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    font-family: lato;
+    padding-left: 45px;
+}
+
+/*  style for link decoration */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/*style for link actions*/
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+
+}
+
+a:active {
+    color: white;
+
+}
+
+a:focus {
+    color: white;
+}
+
+.section_title {
+    color: #7287ae;
+    align-content: center;
+    padding-top: 400px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 103px;
+}
+
+section.head {
+    background-color: #7287ae;
+}
+
+/* popular menu */
+.popular_menu {
+    position: relative;
+    font-family: ubuntu;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+/*style for footer*/
+footer {
+    padding: 50px 0;
+}
+
+footer .container,
+footer .footer_block--right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .footer_block--right {
+    justify-content: flex-start;
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+}
+
+footer .footer_block--left {
+    font-size: 20px;
+    position: relative;
+}
+
+footer .footer_menu {
+    margin-right: 50px;
+    font-size: 17px;
+}
+
+footer .footer_menu:last-child {
+    margin-right: 0;
+}
+
+footer .footer_menu .menu_title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: block;
+    padding-top: 15px;
+
+}
+
+.footer {
+    position: relative;
+}
+
+.background_2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+/*end footer*/
+
+/*start main*/
+.popular_menu_items {
+    display: flex;
+    gap: 40px;
+}
+
+.popular_menu .button {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.menu {
+    background-color: aliceblue;
+    color: #333;
+    font-family: ubuntu;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.content {
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
+.menu_description {
+    font-family: lato;
+    font-weight: lighter;
+}
+
+.menu_price {
+    font-weight: bold;
+}
+
+.show_more {
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    height: 52px;
+    background-color: #7287ae;
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    font-family: ubuntu;
+}
+
+.discount_offer {
+    position: relative;
+    z-index: 1;
+    padding-top: 167px;
+}
+
+.menu_discount {
+    display: flex;
+}
+
+.menu {
+    /*width:100%;*/
+}
+
+.discount_title {
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-family: ubuntu;
+    padding: 138px;
+}
+
+.pic {
+    width: 50%;
+}
+
+.discount_heading {
+    font-size: 55px;
+}
+
+.discount_description {
+    font-family: lato;
+    font-size: 26px;
+}
+
+.read_more {
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    height: 52px;
+    background-color: #7287ae;
+    border: none;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: ubuntu;
+    letter-spacing: 2px;
+}
+
+.order_procedures {
+    position: relative;
+    z-index: 1;
+    background-color: #7287ae;
+    font-family: ubuntu;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.procedure {
+    display: flex;
+    margin: 70px;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.procedure_blog {
+    align-items: center;
+}
+
+.procedure_number--circle {
+    border-radius: 50%;
+    font-size: 36px;
+    background-color: #fff;
+    text-align: center;
+    width: 86px;
+    height: 81px;
+    padding: 20px;
+    color: #7287ae;
+    margin-left: 61px;
+}
+
+.procedure_number--title {
+    font-size: 36px;
+    margin-bottom: 26px;
+}
+
+.procedure_number--description {
+    font-family: lato;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.order_title {
+    font-size: 46px;
+    text-align: center;
+
+}
+
+.delivery {
+    position: relative;
+    z-index: 1;
+}
+
+.delivery_image img {
+    width: 100%;
+    display: block;
+}
+
+.delivery .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.delivery_heading {
+    font-size: 78px;
+    font-family: ubuntu;
+    font-weight: bold;
+    text-align: center;
+    color: #7287ae;
+    margin-top: initial;
+}
+
+.delivery_description {
+    font-size: 28px;
+    font-family: lato;
+    font-weight: lighter;
+    color: #7287ae;
+    text-align: center;
+}
+
+.delivery .voucher {
+    width: 400px;
+    border-radius: 40px;
+    margin: auto;
+    height: 75px;
+    background-color: #7287ae;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.delivery .get_voucher {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.agus {
+    color: #7287ae;
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    margin-bottom: 325px;
+}
+
+.inverted_comma {
+    font-family: Raleway;
+    font-size: 166px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.after_comma {
+    font-family: lato;
+    font-weight: lighter;
+    font-size: 27px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.agus_waiters {
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 41px;
+    text-align: center;
+}
+
+.social_network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social_network .picto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #7287ae;
+}
+
+
+/* ressponsive */
+@media screen 
+ and (max-width:780px)
+ and (min-width:316px) {
+    header .menu li {
+        font-size: 15px;
+    }
+    .banner_heading{
+        font-size: 49px;
+    }
+    .banner_description{
+        font-size: 19px;
+    }
+    .popular_menu{
+        
+    }
+    .section_title{
+        padding: 0px;
+        margin: 0px;
+        padding-top: 22px;
+        margin-bottom: 59px;
+        font-size: 30px;
+    }
+    .menu_discount{
+
+    }
+    .discount_title{
+        padding: 0px;
+    }
+
+}
